@@ -1,0 +1,211 @@
+/* header page css */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container .nav-head {
+  width: 100%;
+  background-color: #015c77;
+  color: #ffffff;
+}
+
+.container .nav-head .nav-head_items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.container .nav-head .nav-head_items .list-items {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.container .nav-head .nav-head_items .list-items > li {
+  padding-left: 30px;
+}
+
+.container .nav-head .nav-btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin: 5px 0px;
+  border: none;
+}
+
+/* content page css */
+
+  
+.content .container .top-section {
+  display: flex;
+  width: 100%;
+}
+ 
+
+.content .container .top-section .left-side{
+ width: 15%;
+}
+
+ 
+.content .container .top-section .left-side .left-side_content  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #012734;
+  
+}
+
+.content .container .top-section .left-side_content > li {
+  list-style-type:  none;
+  background: #fafcf7;
+  width: 100%;
+  height: 80px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.content .container .top-section .right-side{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.content .container .top-section .right-side_top {
+  background: #008081;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #012734;
+}
+
+.content .container .top-section .right-side_center {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content .container .top-section .right-side .right-side_center .first-content {
+  width: 35%;
+  height: 421px;
+  background: #fe6347;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.content .container .top-section .right-side .right-side_center .second-center {
+  width: 30%;
+  height: 421px;
+  background: #ffff00;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.content .container .top-section .right-side .right-side_center .third-center {
+  width: 35%;
+  height: 421px;
+  background: #9acd32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.content .container .top-section .right-side_bottom {
+  width: 100%;
+  height: 89px;
+  background: #ee82ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #012734;
+}
+
+/* footer css */
+
+.content-footer .footer .container {
+  background-color: #012734;
+  color: #ffffff;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-footer .footer .container .list-items_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.content-footer .footer .container .list-items_footer > li {
+  list-style-type: none;
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+
+
+
+@media (max-width:700px) {
+  
+
+
+  .content .container .top-section .left-side .left-side_content li  {
+
+    font-size: 16px;
+  }
+
+  .content .container .top-section .right-side .right-side_content span {
+    font-size: 16px;
+  }
+   
+
+}
